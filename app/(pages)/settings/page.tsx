@@ -3,8 +3,8 @@ import Sidenav from "./sidenav";
 
 export default function SettingsPage() {
     return (
-        <div>
-            <h1 className="font-bold text-2xl mb-4">Configuración</h1>
+        <div className="m-4">
+            <h1 className="font-bold text-2xl mb-4 text-black">Configuración</h1>
             <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-gray-900">
                     <Sidenav/>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ReactNode } from "react";
 import { BiSolidBank } from "react-icons/bi";
 import { IoMdSettings } from "react-icons/io";
@@ -27,7 +28,7 @@ export default function Header() {
             <nav className="flex gap-4">
                 {navItems.map((item) => (
                     <div key={item.key} className="hover:text-gray-900">
-                        <a href={item.href} className="text-2xl">{item.img_icon}</a>
+                        <Link href={item.href} className="text-2xl">{item.img_icon}</Link>
                     </div>
                 ))}
             </nav>
