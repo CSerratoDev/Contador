@@ -3,7 +3,7 @@ import { BiLogoGithub, BiSolidBank } from "react-icons/bi";
 import { IoMdSettings } from "react-icons/io";
 import { IoDocumentTextSharp } from "react-icons/io5";
 import { MdDashboard } from "react-icons/md";
-import { RiAccountCircleFill } from "react-icons/ri";
+import { RiAccountCircleFill } from "react-icons/ri"; 
 import { TiSocialLinkedin } from "react-icons/ti";
 
 interface nav {
