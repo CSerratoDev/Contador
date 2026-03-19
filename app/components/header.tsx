@@ -23,7 +23,9 @@ export default function Header() {
     return (
         <header className="flex w-full p-4 relative top-0 left-0 bg-blue-500 text-white justify-between">
             <div className="hover:text-gray-900">
-                <a href="/" className="text-2xl"><BiSolidBank /></a>
+                <Link href="/" className="flex gap-4 items-center text-2xl"><BiSolidBank />
+                    <p className="text-md">Contador para PyMEs</p>
+                </Link>
             </div>
             <nav className="flex gap-4">
                 {navItems.map((item) => (

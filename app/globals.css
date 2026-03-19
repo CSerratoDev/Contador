@@ -26,7 +26,7 @@ body {
   margin-left: calc(50% - 50vw);
   height: 80vh;
 
-  background-image: url('./assets/banner.jpg');
+  background-image: url('/assets/banner.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
